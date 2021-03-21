@@ -2,7 +2,7 @@
 
 # intdate
 
-A simple integer date library inspired by Python's `int_date`.
+A simple integer date library inspired by Python's `int_date`
 
 ## Sample Usage
 ```rust

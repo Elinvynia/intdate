@@ -33,6 +33,11 @@ use std::str::FromStr;
 #[derive(Debug, Clone, Copy, PartialEq, Eq, PartialOrd, Ord)]
 pub struct IntDate(u32);
 impl IntDate {
+    /// Returns the integer this date was made from.
+    pub fn raw(&self) -> u32 {
+        self.0
+    }
+
     /// Returns the day.
     pub fn get_day(&self) -> u8 {
         get_day_part(self.0)
